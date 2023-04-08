@@ -5,7 +5,7 @@ import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
 
 
 const CartItem = ({ cart, removeCartData }) => {
-  console.log(cart)
+//   console.log(cart)
   const { id, img, name, price, shipping, quantity } = cart
   return (
     <>
