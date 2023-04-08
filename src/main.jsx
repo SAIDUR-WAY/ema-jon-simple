@@ -10,6 +10,7 @@ import Home from './components/Home/Home';
 import Shop from './components/Shop/Shop';
 import Order from './components/Order/Order';
 import cartProductLoader from './cartProductLoader';
+import Chackout from './components/Chackout/Chackout';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Shop></Shop>
+      },
+      {
+        path: '/chackout',
+        element: <Chackout></Chackout>
       },
       {
         path: '/order',

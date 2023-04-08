@@ -1,4 +1,6 @@
 .shop-container{
+     max-width: 1280px;
+     margin: 0 auto;
      display: grid;
      grid-template-columns: 4fr 1fr;
      justify-items: center;
@@ -12,3 +14,13 @@
 
     
 }
+.btn-proceed{
+     width: 90%;
+     background-color: #FF9900;
+     margin: 10px auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+
