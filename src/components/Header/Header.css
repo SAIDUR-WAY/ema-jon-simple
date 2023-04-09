@@ -12,3 +12,6 @@ nav.header a{
      color: white;
      margin-left: 32px;
 }
+.link-box{
+     display: flex;
+}
