@@ -15,3 +15,7 @@ nav.header a{
 .link-box{
      display: flex;
 }
+.user-email{
+     padding-left: 20px;
+     color: white;
+}

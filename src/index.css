@@ -70,3 +70,16 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* project css */
+.form-container p span{
+  color: rgb(228, 84, 84);
+}
+.form-container .success{
+  color: rgb(73, 219, 73);
+}
+.show-password{
+  color:#213547;
+  cursor: pointer;
+  text-decoration: underline;
+}
